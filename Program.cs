@@ -27,7 +27,12 @@ namespace TencentCloudHelper
                 });
             }
             Task.Factory.StartNew(()=> {
-                Auto();
+                while (true)
+                {
+                    Auto();
+                    Thread.Sleep(1000*60*60*1);
+                }
+                
             });
             while (true)
             {
