@@ -165,10 +165,6 @@ namespace API
         }
 
 
-        static double 流量字b换成G(double d)
-        {
-            return Math.Round(d / 1024 / 1024 / 1024, 0);
-
-        }
+        
     }
 }
