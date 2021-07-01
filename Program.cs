@@ -11,7 +11,7 @@ namespace TencentCloudHelper
     {
         static void Main(string[] args)
         {
-            //自己简单的把自己项目关于良心云的api封装的拿出来简单的做了一下。 qq470138890 ，欢迎交流.net core技术
+            //自己简单的把自己项目关于良心云的api封装的拿出来简单的做了一下  
             if (args==null&&args.Length!=0)
             {
                 Console.WriteLine("您没有输入SecretId和SecretKey");
