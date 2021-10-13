@@ -18,14 +18,7 @@ namespace TencentCloudHelper
                 return;
             }
            
-            for (int i = 0; i < args.Length; i=i+2)
-            {
-                TencentCloudApiCommon.l.Add(new API.Model.TencentCloudApiUser()
-                {
-                    SecretId = args[i],
-                    SecretKey = args[i+1]
-                });
-            }
+            
             Task.Factory.StartNew(()=> {
                 while (true)
                 {
@@ -34,6 +27,14 @@ namespace TencentCloudHelper
                 }
                 
             });
+            for (int i = 0; i < args.Length; i=i+2)
+            {
+                TencentCloudApiCommon.l.Add(new API.Model.TencentCloudApiUser()
+                {
+                    SecretId = args[i],
+                    SecretKey = args[i+1]
+                });
+            }
             while (true)
             {
 
