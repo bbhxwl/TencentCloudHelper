@@ -7,7 +7,7 @@ namespace API.Model
    public  class TencentCloudApiUser
     {
         public string SecretId { get; set; }
-        public string SecretKey { get; set; }
+         public string SecretKey { get; set; }
         public string Email { get; set; }
     } 
 }
