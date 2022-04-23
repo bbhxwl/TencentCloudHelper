@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace API.Model
 {
     public class TencentCloudServer
-    {
+    { 
         public string Email { get; set; }
         public KeyValuePair<string,string> Region { get; set; }
         public string InstanceId { get; set; }
