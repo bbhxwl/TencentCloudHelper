@@ -12,7 +12,7 @@ namespace API
     public class TencentCloudApiCommon
     {
         public static List<TencentCloudApiUser> l = new List<TencentCloudApiUser>() {
-       
+        
         };
         public static Dictionary<string, string> Regions = new Dictionary<string, string>() {
         {"ap-beijing","北京" },
